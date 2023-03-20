@@ -46,3 +46,59 @@ letter-spacing: 3px;
 word-spacing: 5px;
 
 }
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.precio{
+    font-size: 50px;
+    color: #e28418;
+}
+
+.columna{
+    background: #d4d6ca ;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 8px rgb(150, 150, 150);
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.verprecio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.verprecio:hover{
+    background: rgb(255, 84, 65);
+}
+
+@media (max-width: 1070px){
+.columna{width: 45%;
+margin-bottom: 20px;}
+
+}
+
+@media (max-width: 600px){
+    .columna{width: 100%;
+    margin-bottom: 20px;}
+    
+    }
