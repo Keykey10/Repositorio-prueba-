@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700&family=Tilt+Neon&display=swap');
+
+
+*{font-family: 'Raleway', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+box-sizing:border-box ;
+padding: 0;
+margin: 0}
+
+body{background-color: rgb(235, 235, 235);}
+    
+header{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(173, 200, 224);
+}
+
+h2{color: #ca00ca;;
+font-size: 40px;}
+    
+nav{display: flex;
+    gap: 50px;
+}
+
+nav a{color: white;
+text-decoration: none;
+font-size: 23px;}
+
+.caja{width: 600px;
+     height: 200px;
+    background-color: rgb(173, 200, 224);
+    border: 3px black solid;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 20px 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja h2{color: black;
+font-weight: 100;
+-webkit-text-stroke: 1px rgb(95, 95, 95);
+letter-spacing: 3px;
+word-spacing: 5px;
+
+}
